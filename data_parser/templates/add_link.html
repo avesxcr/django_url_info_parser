@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Добавить ссылку{% endblock %}
+{% block content %}
+<div class="container">
+    <a href="{% url 'data_parser:view_links' %}" class="btn btn-info mt-3" style="color: white;">Вернуться ко всем линкам</a>
+    <h2 class="mt-4 mb-3">Добавить ссылку</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Добавить ссылку</button>
+    </form>
+</div>
+{% endblock %}

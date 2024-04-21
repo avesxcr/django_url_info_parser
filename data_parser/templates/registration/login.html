@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block title %}Логин{% endblock %}
+{% block nav %}
+{% endblock %}
+{% block content %}
+
+<div class="container mt-5 form-signin w-100 m-auto">
+<form method="post">
+    {% csrf_token %}
+    <h1 class="h3 mb-3 fw-normal">Войти в аккаунт</h1>
+    {{form.non_field_errors}}
+    <div class="form-floating">
+      <input type="text" class="form-control" name="username" id="username" placeholder="name@example.com">
+      <label for="username">Пользователь</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+      <label for="password">Пароль</label>
+    </div>
+    <button class="btn btn-primary w-100 py-2" type="submit">Войти</button>
+    <div class="text-center fs-6">
+        <a href="{% url 'data_parser:password_reset' %}">Забыли пароль?</a> или <a href="{% url 'data_parser:register' %}">Зарегистрироваться</a>
+    </div>
+  </form>
+</div>
+{% endblock %}
+
+<script>
+
+    // Initialization for ES Users
+import { Input, Ripple, initMDB } from "mdb-ui-kit";
+
+initMDB({ Input, Ripple });
+</script>

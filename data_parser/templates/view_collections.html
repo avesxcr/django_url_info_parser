@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}Коллекции | {{user.username}} {% endblock %}
+{% block content %}
+<div class="container">
+    <a href="{% url 'data_parser:view_links' %}" class="btn btn-info mt-3" style="color: white;">Вернуться ко всем
+        линкам</a>
+    <h2 class="mt-4 mb-3">Коллекции пользователя {{ user.username }}</h2>
+    <button type="button" class="btn btn-danger mb-3" id="delete-selected">Удалить выбранные коллекции и ссылки</button>
+    <button type="button" class="btn btn-danger mb-3" id="delete-all">Удалить все коллекции и ссылки</button>
+    <div class="table-responsive overflow-auto" style="max-height: 1000px;">
+        <table id="table" class="table table-bordered" style="cursor: pointer;">
+            <thead>
+            <tr>
+                <th>Выбрать</th>
+                <th>Название коллекции</th>
+                <th>Описание</th>
+                <th>Количество ссылок</th>
+                <th>Действия</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in collections_with_links %}
+            <tr>
+                <td><input type="checkbox" class="link-checkbox" value="{{ item.collection.id }}"></td>
+                <td><a href="{% url 'data_parser:view_collections' %}{{ item.collection.name }}/">{{ item.collection.name }}</a></td>
+                <td>{{ item.collection.description }}</td>
+                <td>{{ item.links_count }}</td>
+                <td>
+                    <a href="{% url 'data_parser:edit_collection' item.collection.id %}" class="link-warning">Редактировать</a><br>
+                    <a href="{% url 'data_parser:view_collections' %}{{ item.collection.name }}/" class="link-info">Просмотреть</a>
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+$(document).ready(function () {
+   $('#table tr').click(function (event) {
+       if (event.target.type !== 'checkbox') {
+           $(':checkbox', this).trigger('click');
+       }
+   });
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const deleteSelectedButton = document.getElementById('delete-selected');
+    const deleteAllButton = document.getElementById('delete-all');
+    const checkboxes = document.querySelectorAll('.link-checkbox');
+
+    // Обработчик для кнопки удаления выбранных коллекций
+    deleteSelectedButton.addEventListener('click', function () {
+        const selectedIds = [];
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                selectedIds.push(checkbox.value);
+            }
+        });
+        // Перенаправляем на страницу удаления коллекций с выбранными ID
+        window.location.href = '{% url "data_parser:delete_selected_collections" %}?ids=' + selectedIds.join(',');
+    });
+
+    // Обработчик для кнопки удаления всех коллекций
+    deleteAllButton.addEventListener('click', function () {
+        // Перенаправляем на страницу удаления всех коллекций
+        window.location.href = '{% url "data_parser:delete_all_collections" %}';
+    });
+});
+
+</script>
+{% endblock %}

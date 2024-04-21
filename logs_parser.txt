@@ -1,0 +1,208 @@
+2024-04-21 21:09:08,617 - parser - ERROR - Ошибка при получении URL https://folicacid.ca: Cannot connect to host folicacid.ca:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:08,619 - parser - ERROR - Ошибка при получении URL https://dixan.by: Cannot connect to host dixan.by:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:08,956 - parser - ERROR - Ошибка при получении URL https://eurogammaitalia.it: Cannot connect to host eurogammaitalia.it:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:08,959 - parser - ERROR - Ошибка при получении URL https://evkirchendw.de: Cannot connect to host evkirchendw.de:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:09,946 - parser - ERROR - Ошибка при получении URL https://woodbinecc.org: Cannot connect to host woodbinecc.org:443 ssl:default [None]
+2024-04-21 21:09:10,183 - parser - ERROR - Ошибка при получении URL https://zici.net: Cannot connect to host zici.net:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')]
+2024-04-21 21:09:10,185 - parser - ERROR - Ошибка при получении URL https://c-nisimoto.co.jp: Cannot connect to host c-nisimoto.co.jp:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:10,235 - parser - ERROR - Ошибка при получении URL https://bbcristina.it: Cannot connect to host bbcristina.it:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:10,331 - parser - ERROR - Ошибка при получении URL https://flamme-berlin.de: Cannot connect to host flamme-berlin.de:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)]
+2024-04-21 21:09:10,331 - parser - ERROR - Ошибка при получении URL https://fresh-canvas.net: Cannot connect to host fresh-canvas.net:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:10,448 - parser - ERROR - Ошибка при получении URL https://dewa.or.jp: Cannot connect to host dewa.or.jp:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'dewa.or.jp'. (_ssl.c:997)")]
+2024-04-21 21:09:10,507 - parser - ERROR - Ошибка при получении URL https://enjoy.ne.jp: Cannot connect to host enjoy.ne.jp:443 ssl:default [Connection reset by peer]
+2024-04-21 21:09:10,584 - parser - ERROR - Ошибка при получении URL https://scs.gov.az: Cannot connect to host scs.gov.az:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:10,688 - parser - ERROR - Ошибка при получении URL https://htk.ru: Cannot connect to host htk.ru:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)]
+2024-04-21 21:09:10,778 - parser - ERROR - Ошибка: Кодировка не определена для URL https://mosella.de
+2024-04-21 21:09:10,874 - parser - ERROR - Ошибка при получении URL https://hzmotv.com: Cannot connect to host hzmotv.com:443 ssl:default [Connection reset by peer]
+2024-04-21 21:09:10,948 - parser - ERROR - Ошибка при получении URL https://shihou-n.com: Cannot connect to host shihou-n.com:443 ssl:default [Connection reset by peer]
+2024-04-21 21:09:10,975 - parser - ERROR - Ошибка при получении URL https://auriol-sa.fr: Cannot connect to host auriol-sa.fr:443 ssl:default [Connection reset by peer]
+2024-04-21 21:09:11,268 - parser - ERROR - Ошибка при получении URL https://uberu.de: Cannot connect to host uberu.de:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'uberu.de'. (_ssl.c:997)")]
+2024-04-21 21:09:11,487 - parser - ERROR - Ошибка при получении URL https://benedyktpolak.org: Cannot connect to host benedyktpolak.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:11,509 - parser - ERROR - Ошибка при получении URL https://buharkenttarim.gov.tr: Cannot connect to host buharkenttarim.gov.tr:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'buharkenttarim.gov.tr'. (_ssl.c:997)")]
+2024-04-21 21:09:11,512 - parser - ERROR - Ошибка: Кодировка не определена для URL https://tuinarchitectuur.org
+2024-04-21 21:09:11,542 - parser - ERROR - Ошибка при получении URL https://protech-informatique.com: Cannot connect to host protech-informatique.com:443 ssl:default [None]
+2024-04-21 21:09:11,549 - parser - ERROR - Ошибка: Кодировка не определена для URL https://splitting-images.com
+2024-04-21 21:09:11,721 - parser - ERROR - Ошибка: Кодировка не определена для URL https://goemonburo.com
+2024-04-21 21:09:11,904 - parser - ERROR - Ошибка при получении URL https://ustgolfshaft.com: Cannot connect to host ustgolfshaft.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:11,996 - parser - ERROR - Ошибка при получении URL https://harvest-farms.com: Cannot connect to host harvest-farms.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'harvest-farms.com'. (_ssl.c:997)")]
+2024-04-21 21:09:12,143 - parser - ERROR - Ошибка при получении URL https://corritalia.de: Cannot connect to host corritalia.de:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')]
+2024-04-21 21:09:12,144 - parser - ERROR - Ошибка: Кодировка не определена для URL https://fortworthabvi.com
+2024-04-21 21:09:12,337 - parser - ERROR - Ошибка при получении URL https://chucky-98.com: Cannot connect to host chucky-98.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:12,355 - parser - ERROR - Ошибка при получении URL https://qc.edu: Cannot connect to host qc.edu:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'qc.edu'. (_ssl.c:997)")]
+2024-04-21 21:09:12,693 - parser - ERROR - Ошибка: Кодировка не определена для URL https://ryannewman.com
+2024-04-21 21:09:12,780 - parser - ERROR - Ошибка при получении URL https://sonyasuhariyan.com: Cannot connect to host sonyasuhariyan.com:443 ssl:default [nodename nor servname provided, or not known]
+2024-04-21 21:09:12,869 - parser - ERROR - Ошибка при получении URL https://darkangel.jp: Cannot connect to host darkangel.jp:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'darkangel.jp'. (_ssl.c:997)")]
+2024-04-21 21:09:12,884 - parser - ERROR - Ошибка при получении URL https://devlaw.co.uk: Cannot connect to host devlaw.co.uk:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'devlaw.co.uk'. (_ssl.c:997)")]
+2024-04-21 21:09:12,989 - parser - ERROR - Ошибка при получении URL https://hoecker-structures.com: Cannot connect to host hoecker-structures.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hoecker-structures.com'. (_ssl.c:997)")]
+2024-04-21 21:09:13,026 - parser - ERROR - Ошибка: Кодировка не определена для URL https://veldon-tait.com
+2024-04-21 21:09:13,445 - parser - ERROR - Ошибка: Кодировка не определена для URL https://accademiamusicamoderna.it
+2024-04-21 21:09:13,685 - parser - ERROR - Ошибка: Кодировка не определена для URL https://escueladesonido.com.ar
+2024-04-21 21:09:13,939 - parser - ERROR - Ошибка: Кодировка не определена для URL https://biologischopdejachthuislaan.nl
+2024-04-21 21:09:14,452 - parser - ERROR - Ошибка: Кодировка не определена для URL https://ml-elektrotechnik.de
+2024-04-21 21:09:14,466 - parser - ERROR - Ошибка: Кодировка не определена для URL https://masstheory.org
+2024-04-21 21:09:14,820 - parser - ERROR - Ошибка: Кодировка не определена для URL https://freshislandfish.com
+2024-04-21 21:09:15,400 - parser - ERROR - Ошибка: Кодировка не определена для URL https://franzosi.it
+2024-04-21 21:09:18,447 - parser - ERROR - Ошибка при получении URL https://him.de: 
+2024-04-21 21:09:18,447 - parser - ERROR - Ошибка при получении URL https://borgodellamusica.com: 
+2024-04-21 21:09:18,447 - parser - ERROR - Ошибка при получении URL https://just-say-why.com: 
+2024-04-21 21:09:18,447 - parser - ERROR - Ошибка при получении URL https://gallery-fujii.co.jp: 
+2024-04-21 21:09:18,448 - parser - ERROR - Ошибка при получении URL https://c114.net: 
+2024-04-21 21:09:18,448 - parser - ERROR - Ошибка при получении URL https://karis-srl.com: 
+2024-04-21 21:09:18,448 - parser - ERROR - Ошибка при получении URL https://theqarena.com: 
+2024-04-21 21:09:18,449 - parser - ERROR - Ошибка при получении URL https://fashweekly.com: 
+2024-04-21 21:09:18,449 - parser - ERROR - Ошибка при получении URL https://kansard.com: 
+2024-04-21 21:09:18,449 - parser - ERROR - Ошибка при получении URL https://aardvarkeditorial.com: 
+2024-04-21 21:09:18,461 - parser - INFO - START PARSER INFO FROM URL: https://eurogammaitalia.it
+2024-04-21 21:09:18,461 - parser - INFO - START PARSER INFO FROM URL: https://ito-techo.co.jp
+2024-04-21 21:09:18,499 - parser - INFO - Ссылка обновлена в базе данных: 伊藤手帳
+2024-04-21 21:09:18,499 - parser - INFO - START PARSER INFO FROM URL: https://design-windows.co.uk
+2024-04-21 21:09:18,546 - parser - INFO - Ссылка добавлена в базу данных: Design Window & Door Systems, Essex, Installers
+2024-04-21 21:09:18,547 - parser - INFO - START PARSER INFO FROM URL: https://drive-backup.com
+2024-04-21 21:09:18,633 - parser - INFO - Ссылка добавлена в базу данных: Business Continuity and Disaster Recovery Made Easy – Paragon Protect & Restore
+2024-04-21 21:09:18,633 - parser - INFO - START PARSER INFO FROM URL: https://folicacid.ca
+2024-04-21 21:09:18,633 - parser - INFO - START PARSER INFO FROM URL: https://zsirc.com
+2024-04-21 21:09:18,654 - parser - INFO - Ссылка добавлена в базу данных: zsIRC - IRC for Pocket PC
+2024-04-21 21:09:18,654 - parser - INFO - START PARSER INFO FROM URL: https://dixan.by
+2024-04-21 21:09:18,654 - parser - INFO - START PARSER INFO FROM URL: https://gallery-fujii.co.jp
+2024-04-21 21:09:18,654 - parser - INFO - START PARSER INFO FROM URL: https://zici.net
+2024-04-21 21:09:18,654 - parser - INFO - START PARSER INFO FROM URL: https://saurock.net
+2024-04-21 21:09:18,733 - parser - INFO - Ссылка добавлена в базу данных: SAÜROCK – Sakarya Üniversitesi Rock Topluluğu resmi sayfası. Bu site aracılığı ile Sakarya'da gerçekleşen konser ve müzikal etkinliklerden haberdar olabilirsiniz.
+2024-04-21 21:09:18,733 - parser - INFO - START PARSER INFO FROM URL: https://jamesmadisoninn.com
+2024-04-21 21:09:18,758 - parser - INFO - Ссылка добавлена в базу данных: The James Madison Inn | Madison GA Hotel & Wedding Venue
+2024-04-21 21:09:18,759 - parser - INFO - START PARSER INFO FROM URL: https://explex.de
+2024-04-21 21:09:18,768 - parser - INFO - Ссылка добавлена в базу данных: EXPLEX-xpert ist die Premium-Software für Bauträger, Projektentwickler und Wohnungsbauunternehmen.
+2024-04-21 21:09:18,769 - parser - INFO - START PARSER INFO FROM URL: https://him.de
+2024-04-21 21:09:18,769 - parser - INFO - START PARSER INFO FROM URL: https://evkirchendw.de
+2024-04-21 21:09:18,769 - parser - INFO - START PARSER INFO FROM URL: https://akuni.com
+2024-04-21 21:09:18,820 - parser - INFO - Ссылка добавлена в базу данных: Home - Akuni Adventures
+2024-04-21 21:09:18,820 - parser - INFO - START PARSER INFO FROM URL: https://woodbinecc.org
+2024-04-21 21:09:18,821 - parser - INFO - START PARSER INFO FROM URL: https://roc-office.co.uk
+2024-04-21 21:09:18,830 - parser - INFO - Ссылка добавлена в базу данных: 403 Forbidden
+2024-04-21 21:09:18,830 - parser - INFO - START PARSER INFO FROM URL: https://c114.net
+2024-04-21 21:09:18,830 - parser - INFO - START PARSER INFO FROM URL: https://servingu.net
+2024-04-21 21:09:18,866 - parser - INFO - Ссылка добавлена в базу данных: Timothy Couch | All About Serving U  | Lexington, SC 29073
+2024-04-21 21:09:18,866 - parser - INFO - START PARSER INFO FROM URL: https://sierrafoothillsoralsurgery.com
+2024-04-21 21:09:18,875 - parser - INFO - Ссылка добавлена в базу данных: Attention Required! | Cloudflare
+2024-04-21 21:09:18,875 - parser - INFO - START PARSER INFO FROM URL: https://gruenerbaum-schierstein.de
+2024-04-21 21:09:18,879 - parser - INFO - Ссылка добавлена в базу данных: Database Error
+2024-04-21 21:09:18,879 - parser - INFO - START PARSER INFO FROM URL: https://mv-monzelfeld.de
+2024-04-21 21:09:18,921 - parser - INFO - Ссылка добавлена в базу данных: Musikverein "Cäcilia" Monzelfeld 1926 e.V. - HOME
+2024-04-21 21:09:18,921 - parser - INFO - START PARSER INFO FROM URL: https://mosella.de
+2024-04-21 21:09:18,921 - parser - INFO - START PARSER INFO FROM URL: https://dewa.or.jp
+2024-04-21 21:09:18,921 - parser - INFO - START PARSER INFO FROM URL: https://gart.org.ua
+2024-04-21 21:09:18,939 - parser - INFO - Ссылка добавлена в базу данных: Вход и регистрация в онлайн казино
+2024-04-21 21:09:18,940 - parser - INFO - START PARSER INFO FROM URL: https://enjoy.ne.jp
+2024-04-21 21:09:18,940 - parser - INFO - START PARSER INFO FROM URL: https://vzfei.biz
+2024-04-21 21:09:18,961 - parser - INFO - Ссылка добавлена в базу данных: vzfei.biz - Domain Name For Sale | Dan.com
+2024-04-21 21:09:18,961 - parser - INFO - START PARSER INFO FROM URL: https://kndcradio.com
+2024-04-21 21:09:18,967 - parser - INFO - Ссылка добавлена в базу данных: 403 Forbidden
+2024-04-21 21:09:18,967 - parser - INFO - START PARSER INFO FROM URL: https://auriol-sa.fr
+2024-04-21 21:09:18,967 - parser - INFO - START PARSER INFO FROM URL: https://flamme-berlin.de
+2024-04-21 21:09:18,967 - parser - INFO - START PARSER INFO FROM URL: https://shihou-n.com
+2024-04-21 21:09:18,967 - parser - INFO - START PARSER INFO FROM URL: https://asiapharmaceutics.info
+2024-04-21 21:09:18,993 - parser - INFO - Ссылка добавлена в базу данных: 
+		Asian Journal of Pharmaceutics (AJP)
+					
+2024-04-21 21:09:18,993 - parser - INFO - START PARSER INFO FROM URL: https://splitting-images.com
+2024-04-21 21:09:18,993 - parser - INFO - START PARSER INFO FROM URL: https://htk.ru
+2024-04-21 21:09:18,993 - parser - INFO - START PARSER INFO FROM URL: https://hzmotv.com
+2024-04-21 21:09:18,993 - parser - INFO - START PARSER INFO FROM URL: https://bbcristina.it
+2024-04-21 21:09:18,993 - parser - INFO - START PARSER INFO FROM URL: https://c-nisimoto.co.jp
+2024-04-21 21:09:18,993 - parser - INFO - START PARSER INFO FROM URL: https://idionline.org
+2024-04-21 21:09:19,043 - parser - INFO - Ссылка добавлена в базу данных: Ikatan Dokter Indonesia
+2024-04-21 21:09:19,043 - parser - INFO - START PARSER INFO FROM URL: https://chucky-98.com
+2024-04-21 21:09:19,043 - parser - INFO - START PARSER INFO FROM URL: https://tuinarchitectuur.org
+2024-04-21 21:09:19,043 - parser - INFO - START PARSER INFO FROM URL: https://goemonburo.com
+2024-04-21 21:09:19,043 - parser - INFO - START PARSER INFO FROM URL: https://ecoute-voix.org
+2024-04-21 21:09:19,094 - parser - INFO - Ссылка добавлена в базу данных: ACCUEIL | Ecoute Et Voix
+2024-04-21 21:09:19,094 - parser - INFO - START PARSER INFO FROM URL: https://fresh-canvas.net
+2024-04-21 21:09:19,094 - parser - INFO - START PARSER INFO FROM URL: https://fortworthabvi.com
+2024-04-21 21:09:19,094 - parser - INFO - START PARSER INFO FROM URL: https://innovate-de.info
+2024-04-21 21:09:19,155 - parser - INFO - Ссылка добавлена в базу данных: Home - INNOVATE
+2024-04-21 21:09:19,155 - parser - INFO - START PARSER INFO FROM URL: https://freshislandfish.com
+2024-04-21 21:09:19,155 - parser - INFO - START PARSER INFO FROM URL: https://scs.gov.az
+2024-04-21 21:09:19,155 - parser - INFO - START PARSER INFO FROM URL: https://catscradle.com
+2024-04-21 21:09:19,164 - parser - INFO - Ссылка добавлена в базу данных: 403 Forbidden
+2024-04-21 21:09:19,164 - parser - INFO - START PARSER INFO FROM URL: https://ostenmedresten.se
+2024-04-21 21:09:19,204 - parser - INFO - Ссылка добавлена в базу данных: Östen med Resten
+2024-04-21 21:09:19,204 - parser - INFO - START PARSER INFO FROM URL: https://lfvb.de
+2024-04-21 21:09:19,269 - parser - INFO - Ссылка добавлена в базу данных: Landesverband Film + Video Bayern e.V. (LFVB)
+2024-04-21 21:09:19,270 - parser - INFO - START PARSER INFO FROM URL: https://buharkenttarim.gov.tr
+2024-04-21 21:09:19,270 - parser - INFO - START PARSER INFO FROM URL: https://benedyktpolak.org
+2024-04-21 21:09:19,270 - parser - INFO - START PARSER INFO FROM URL: https://jenporter.com
+2024-04-21 21:09:19,333 - parser - INFO - Ссылка добавлена в базу данных: Jen Porter
+2024-04-21 21:09:19,333 - parser - INFO - START PARSER INFO FROM URL: https://uberu.de
+2024-04-21 21:09:19,333 - parser - INFO - START PARSER INFO FROM URL: https://advancedsurgicalassociates.com
+2024-04-21 21:09:19,361 - parser - INFO - Ссылка добавлена в базу данных: advancedsurgicalassociates.com - Domain Name For Sale | Dan.com
+2024-04-21 21:09:19,362 - parser - INFO - START PARSER INFO FROM URL: https://2wayradiodirect.com
+2024-04-21 21:09:19,539 - parser - INFO - Ссылка добавлена в базу данных: Home Page, 2 Way Radio Direct
+2024-04-21 21:09:19,539 - parser - INFO - START PARSER INFO FROM URL: https://protech-informatique.com
+2024-04-21 21:09:19,539 - parser - INFO - START PARSER INFO FROM URL: https://c21actionla.com
+2024-04-21 21:09:19,589 - parser - INFO - Ссылка добавлена в базу данных: Baton Rouge Louisiana Real Estate | Lafayette LA Homes for Sale | New Orleans LA homes for sale | Houma LA homes for sale | Meta | CENTURY 21 Action Realty
+2024-04-21 21:09:19,590 - parser - INFO - START PARSER INFO FROM URL: https://earthtrust.org
+2024-04-21 21:09:19,648 - parser - INFO - Ссылка добавлена в базу данных: Earth Trust – The "impossible missions" group for environmental crises
+2024-04-21 21:09:19,648 - parser - INFO - START PARSER INFO FROM URL: https://skirent.at
+2024-04-21 21:09:19,664 - parser - INFO - Ссылка добавлена в базу данных: Dein Seefelder Skiverleih für deinen Skiurlaub
+2024-04-21 21:09:19,665 - parser - INFO - START PARSER INFO FROM URL: https://borgodellamusica.com
+2024-04-21 21:09:19,665 - parser - INFO - START PARSER INFO FROM URL: https://oldtimer-doctor.com
+2024-04-21 21:09:19,688 - parser - INFO - Ссылка добавлена в базу данных: Willkommen bei Oldtimer Doctor - Oldtimer Doctor
+2024-04-21 21:09:19,688 - parser - INFO - START PARSER INFO FROM URL: https://jamesmcmurtry.com
+2024-04-21 21:09:19,700 - parser - INFO - Ссылка добавлена в базу данных: The Official Page of James McMurtry
+2024-04-21 21:09:19,700 - parser - INFO - START PARSER INFO FROM URL: https://aardvarkeditorial.com
+2024-04-21 21:09:19,700 - parser - INFO - START PARSER INFO FROM URL: https://grandharbor.com
+2024-04-21 21:09:19,804 - parser - INFO - Ссылка добавлена в базу данных: Grand Harbor Golf & Beach Club - Grand Harbor Golf and Beach Club
+2024-04-21 21:09:19,804 - parser - INFO - START PARSER INFO FROM URL: https://corritalia.de
+2024-04-21 21:09:19,804 - parser - INFO - START PARSER INFO FROM URL: https://harvest-farms.com
+2024-04-21 21:09:19,804 - parser - INFO - START PARSER INFO FROM URL: https://leasingtime.de
+2024-04-21 21:09:19,957 - parser - INFO - Ссылка добавлена в базу данных: Auto Leasing - günstige Leasing Angebote | LeasingTime.de
+2024-04-21 21:09:19,957 - parser - INFO - START PARSER INFO FROM URL: https://larsco.com
+2024-04-21 21:09:20,010 - parser - INFO - Ссылка добавлена в базу данных: Larson & Company CPAs Accounting for Insurance and Business Owners
+2024-04-21 21:09:20,010 - parser - INFO - START PARSER INFO FROM URL: https://vismigratie.nl
+2024-04-21 21:09:20,164 - parser - INFO - Ссылка добавлена в базу данных:  Vismigratie: vis moet kunnen zwemmen 
+2024-04-21 21:09:20,164 - parser - INFO - START PARSER INFO FROM URL: https://the-media-house.co.uk
+2024-04-21 21:09:20,214 - parser - INFO - Ссылка добавлена в базу данных: Expert conference & events training & resources from The Media House
+2024-04-21 21:09:20,214 - parser - INFO - START PARSER INFO FROM URL: https://qc.edu
+2024-04-21 21:09:20,214 - parser - INFO - START PARSER INFO FROM URL: https://caminodesantiagoastorga.com
+2024-04-21 21:09:20,233 - parser - INFO - Ссылка добавлена в базу данных: Camino de Santiago | Astorga
+2024-04-21 21:09:20,233 - parser - INFO - START PARSER INFO FROM URL: https://osbornauto.com
+2024-04-21 21:09:20,263 - parser - INFO - Ссылка добавлена в базу данных: Auto Repair in Redondo Beach and Whittier - Pacific Tire Motorsports
+2024-04-21 21:09:20,263 - parser - INFO - START PARSER INFO FROM URL: https://hoecker-structures.com
+2024-04-21 21:09:20,263 - parser - INFO - START PARSER INFO FROM URL: https://just-say-why.com
+2024-04-21 21:09:20,263 - parser - INFO - START PARSER INFO FROM URL: https://survivinginfidelity.com
+2024-04-21 21:09:20,280 - parser - INFO - Ссылка добавлена в базу данных: SurvivingInfidelity.com Home
+2024-04-21 21:09:20,280 - parser - INFO - START PARSER INFO FROM URL: https://veldon-tait.com
+2024-04-21 21:09:20,280 - parser - INFO - START PARSER INFO FROM URL: https://firmen-webagentur.de
+2024-04-21 21:09:20,348 - parser - INFO - Ссылка добавлена в базу данных: Münchner Webdesigner Software
+2024-04-21 21:09:20,348 - parser - INFO - START PARSER INFO FROM URL: https://prasid.com
+2024-04-21 21:09:20,352 - parser - INFO - Ссылка добавлена в базу данных: 403 Forbidden
+2024-04-21 21:09:20,353 - parser - INFO - START PARSER INFO FROM URL: https://euphorbia.es
+2024-04-21 21:09:20,460 - parser - INFO - Ссылка добавлена в базу данных:  | Euphorbia Comunicación, Diseño Web Valladolid, Programación Web y Consultoría en Valladolid. Agencia proyectos integrales online.
+2024-04-21 21:09:20,460 - parser - INFO - START PARSER INFO FROM URL: https://ryannewman.com
+2024-04-21 21:09:20,460 - parser - INFO - START PARSER INFO FROM URL: https://ustgolfshaft.com
+2024-04-21 21:09:20,460 - parser - INFO - START PARSER INFO FROM URL: https://franzosi.it
+2024-04-21 21:09:20,460 - parser - INFO - START PARSER INFO FROM URL: https://darkangel.jp
+2024-04-21 21:09:20,460 - parser - INFO - START PARSER INFO FROM URL: https://devlaw.co.uk
+2024-04-21 21:09:20,461 - parser - INFO - START PARSER INFO FROM URL: https://jc-weingarten.de
+2024-04-21 21:09:20,488 - parser - INFO - Ссылка добавлена в базу данных: Judo Club Weingarten
+2024-04-21 21:09:20,488 - parser - INFO - START PARSER INFO FROM URL: https://masstheory.org
+2024-04-21 21:09:20,488 - parser - INFO - START PARSER INFO FROM URL: https://ml-elektrotechnik.de
+2024-04-21 21:09:20,488 - parser - INFO - START PARSER INFO FROM URL: https://theqarena.com
+2024-04-21 21:09:20,488 - parser - INFO - START PARSER INFO FROM URL: https://accademiamusicamoderna.it
+2024-04-21 21:09:20,489 - parser - INFO - START PARSER INFO FROM URL: https://kiss957.com
+2024-04-21 21:09:20,544 - parser - INFO - Ссылка добавлена в базу данных: KISS 95-7 - All The Hits: Hartford
+2024-04-21 21:09:20,544 - parser - INFO - START PARSER INFO FROM URL: https://omegaartworks.com
+2024-04-21 21:09:20,562 - parser - INFO - Ссылка добавлена в базу данных: Home - Omega Artworks
+2024-04-21 21:09:20,562 - parser - INFO - START PARSER INFO FROM URL: https://kansard.com
+2024-04-21 21:09:20,562 - parser - INFO - START PARSER INFO FROM URL: https://orenreklamir.ru
+2024-04-21 21:09:20,577 - parser - INFO - Ссылка добавлена в базу данных: Рекламная группа «Рекламир» - Вся реклама Оренбурга
+2024-04-21 21:09:20,577 - parser - INFO - START PARSER INFO FROM URL: https://fashweekly.com
+2024-04-21 21:09:20,577 - parser - INFO - START PARSER INFO FROM URL: https://escueladesonido.com.ar
+2024-04-21 21:09:20,577 - parser - INFO - START PARSER INFO FROM URL: https://karis-srl.com
+2024-04-21 21:09:20,577 - parser - INFO - START PARSER INFO FROM URL: https://biologischopdejachthuislaan.nl
+2024-04-21 21:09:20,577 - parser - INFO - START PARSER INFO FROM URL: https://sonyasuhariyan.com
+2024-04-21 21:10:01,795 - parser - INFO - START PARSER INFO FROM URL: https://www.youtube.com
+2024-04-21 21:10:01,795 - parser - INFO - START PARSER INFO FROM URL: https://www.youtube.com
+2024-04-21 21:10:01,820 - parser - INFO - Ссылка добавлена в базу данных: YouTube
+2024-04-21 21:10:01,820 - parser - INFO - Ссылка добавлена в базу данных: YouTube
+2024-04-21 22:03:12,323 - parser - INFO - START PARSER INFO FROM URL: https://habr.com/
+2024-04-21 22:03:12,458 - parser - INFO - Ссылка добавлена в базу данных: Habr

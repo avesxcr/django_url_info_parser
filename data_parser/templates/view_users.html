@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}Топ-10 пользователей {% endblock %}
+{% block content %}
+<div class="container">
+    <h2 class="mt-4 mb-3">Топ-10 пользователей</h2>
+    <div class="table-responsive overflow-auto" style="max-height: 1000px;">
+        <table id="table" class="table table-bordered" style="cursor: pointer;">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Логин</th>
+                <th>Общее количество ссылок</th>
+                {% for category_name in categories %}
+                <th>{{ category_name }}</th>
+                {% endfor %}
+                <th>Дата регистрации</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row.0 }}</td>
+                <td>{{ row.1 }}</td>
+                <td>{{ row.3 }}</td>
+                {% for category_name, count in row.2.items %}
+                <td>{{ count }}</td>
+                {% endfor %}
+                <td>{{ row.4 }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

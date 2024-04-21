@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Парсить ссылки | {{user.username}} {% endblock %}
+{% block content %}
+<div class="container">
+    <a href="{% url 'data_parser:view_links' %}" class="btn btn-info mt-3" style="color: white;">Вернуться ко всем линкам</a>
+    <h2 class="mt-4 mb-3">Парсить информацию с сайта</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary" onclick="disabled">Запустить парсер</button>
+    </form>
+</div>
+{% endblock %}
+
+<script>
+    function disableButton() {
+        var form = document.getElementById('myForm');
+        var button = form.querySelector('button[type="submit"]');
+        button.disabled = true;
+        form.submit();
+    }
+</script>

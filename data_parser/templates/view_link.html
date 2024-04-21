@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Ссылка | {{link.url}} {% endblock %}
+{% block content %}
+<div class="container">
+    <a href="{% url 'data_parser:view_links' %}" class="btn btn-info mt-3" style="color: white;">Вернуться ко всем линкам</a>
+    <h2 class="mt-4 mb-3">{{ link.title }}</h2>
+    <div class="card mb-3">
+        <div class="card-body">
+            <p class="card-text">Description: {{ link.description }}</p>
+            <p class="card-text">URL: <a href="{{ link.url }}" target="_blank">{{ link.url }}</a></p>
+            <p class="card-text">Image:</p>
+                            <td>
+                    {% if link.image %}
+                    <img src="{{ link.image }}" style="max-width: 500px;">
+                    {% else %}
+                    No image
+                    {% endif %}
+                </td>
+            <p class="card-text">Link Type: {{ link.collection }}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
