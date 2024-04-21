@@ -1,7 +1,8 @@
 from django.contrib.auth import views as auth_views
-from django.urls import path, include
-from drf_yasg import openapi
-from drf_yasg.views import get_schema_view
+from django.conf.urls.static import static
+
+from django.urls import path
+from django.conf import settings
 
 from .forms import UserLoginForm
 from .views import *
@@ -40,4 +41,4 @@ urlpatterns = [
     path('edit_collection/<int:collection_id>/', edit_collection, name='edit_collection'),
     path('view_top_users/', view_top_users, name='view_top_users'),
     path('', lambda request: redirect('profile/', permanent=True)),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
